@@ -1,0 +1,63 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: linear-gradient(to right, #f857a6, #ff5858);
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 330px;
+	padding: 20px 15px;
+	margin: 0 auto;
+	margin-top: 15%;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	background-color: white;
+}
+
+input {
+	padding: 5px 10px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px 0px;
+	border-radius: 3px;
+	font-size: 15px;
+	width: 92%;
+}
+
+button {
+	background-color: #ff69b4;
+	border: none;
+	padding: 10px;
+	margin: 15px 0px;
+	font-family: 'Open Sans', sans-serif; 
+	color: #eee;
+	font-size: 15px;
+	border-radius: 3px;
+}
+
+h1 {
+	margin: 0px;
+}
+
+h4 {
+	margin-top: 0px;
+}
+
+ol {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	justify-content:center;
+
+}
+
+li {
+	padding: 5px;
+}
+
+.material-icons {
+	position: absolute;
+	right: 15px;
+}
