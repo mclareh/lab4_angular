@@ -5,6 +5,7 @@ function FormController() {
 	vm.addTask = function(newItem) {
 		console.log(newItem);
 		vm.tasks.push(newItem);
+		vm.newItem = "";
 	};
 	vm.removeItem = function(index) {
 		vm.tasks.splice(index, 1);	
